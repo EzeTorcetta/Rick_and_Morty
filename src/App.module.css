@@ -1,0 +1,12 @@
+.App {
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+
+.CardsContainer {
+   display: flex;
+   flex-direction: row;
+   background-color: red;
+}

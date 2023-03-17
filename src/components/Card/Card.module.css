@@ -1,0 +1,35 @@
+.tarjeta{
+    height: fit-content;
+    width: 310px;
+    background: linear-gradient(rgba(65, 65, 231, 0.315), rgba(44, 44, 231, 0.178)), url(./fondo_tarjetas.jpg);
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2em;
+
+    -webkit-box-shadow: 9px 9px 98px 3px rgb(98, 29, 227);
+    -moz-box-shadow: 9px 9px 98px 3px rgb(154, 29, 227);
+    box-shadow: 9px 9px 98px 3px rgb(29, 227, 227);
+
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.BotonTarjeta{
+    display: flex;
+    justify-content:end;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 61, 61);
+    
+    
+    
+}

@@ -1,0 +1,39 @@
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Input {
+    display: flex;
+    background-size: cover;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 9px 9px 98px 3px rgba(29, 227, 92, 1);
+    -moz-box-shadow: 9px 9px 98px 3px rgba(29, 227, 92, 1);
+    box-shadow: 9px 9px 98px 3px rgba(29, 227, 92, 1);
+    text-align: center center;
+    margin-right: 20px;
+    
+}
+
+.Button {
+    display: flex;
+    background-size: cover;
+    border-radius: 0.5em;
+    margin-right: 15px;
+    -webkit-box-shadow: 9px 9px 98px 3px rgba(29, 227, 92, 1);
+    -moz-box-shadow: 9px 9px 98px 3px rgba(29, 227, 92, 1);
+    box-shadow: 9px 9px 98px 3px rgba(29, 227, 92, 1);
+    
+    
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+}
