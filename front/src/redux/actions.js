@@ -31,4 +31,3 @@ export const orderCards = (id) => {
   return {type: ORDER, payload: id}
 }
 
-// https://be-a-rym.up.railway.app/api/character?key=416486ca5103.96ef6b2df4eb1059f55c
