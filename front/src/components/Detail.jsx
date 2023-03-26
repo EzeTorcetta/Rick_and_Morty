@@ -12,12 +12,14 @@ export default function Detail() {
 
     useEffect(() => { // useEffect quiere decir "cuando se monta el componente"
 
-        const URL_BASE = "https://be-a-rym.up.railway.app/api";
-        const KEY = "416486ca5103.96ef6b2df4eb1059f55c";
+        const URL_BASE = "http://localhost:3001/rickandmorty/detail";
+        // const URL_BASE = "https://be-a-rym.up.railway.app/api";
+        // const KEY = "416486ca5103.96ef6b2df4eb1059f55c";
 
 
-        axios(`${URL_BASE}/character/${detailId}?key=${KEY}`).then((response) =>
-            setCharacter(response.data)
+        // axios(`${URL_BASE}/character/${detailId}?key=${KEY}`).then((response) =>
+        axios(`${URL_BASE}/character/${detailId}`)
+        .then((response) => setCharacter(response.data)
         );
     }, []);
 

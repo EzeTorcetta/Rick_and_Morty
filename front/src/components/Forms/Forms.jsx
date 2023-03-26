@@ -1,5 +1,6 @@
 import { useState } from "react";
 import validation from "./Validation";
+import style from "./Forms.module.css";
 
 export default function Form({login}){
 
@@ -24,8 +25,8 @@ export default function Form({login}){
     
     
     return(
-        <div>
-        <form onSubmit={handleSubmit}>
+        <div className={style.FormContainer}>
+        <form onSubmit={handleSubmit} className={style.Form}>
             <label htmlFor="username" >Username:</label>
             <input 
             type="text" 
